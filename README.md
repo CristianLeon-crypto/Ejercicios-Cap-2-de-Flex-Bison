@@ -1,9 +1,5 @@
 # Ejercicios de Flex & Bison - Capítulo 2
 
-Este documento explica las soluciones implementadas para los ejercicios del Capítulo 2 del libro *Flex & Bison* de John Levine, enfocados en la optimización de escaneo y el manejo dinámico de tablas de símbolos.
-
----
-
 ### Ejercicio 1: Optimización de Coincidencia de Texto
 
 #### Pregunta original (English)
