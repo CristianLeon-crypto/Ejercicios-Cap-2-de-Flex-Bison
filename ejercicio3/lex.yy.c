@@ -382,29 +382,29 @@ struct yy_trans_info
 	flex_int32_t yy_verify;
 	flex_int32_t yy_nxt;
 	};
-static const flex_int16_t yy_accept[25] =
+static const flex_int16_t yy_accept[27] =
     {   0,
-        0,    0,    0,    0,    9,    4,    5,    6,    6,    2,
-        3,    4,    0,    0,    2,    0,    0,    0,    0,    0,
-        0,    0,    1,    0
+        0,    0,    0,    0,    9,    7,    6,    5,    4,    7,
+        2,    3,    6,    4,    0,    0,    2,    0,    0,    0,
+        0,    0,    0,    0,    1,    0
     } ;
 
 static const YY_CHAR yy_ec[256] =
     {   0,
         1,    1,    1,    1,    1,    1,    1,    1,    2,    3,
+        1,    1,    4,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    2,    1,    5,    6,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    2,    1,    4,    5,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    6,
-        1,    7,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    1,    8,    9,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    7,
+        1,    8,    1,    1,    9,    9,    9,    9,    9,    9,
+        9,    9,    9,    9,    9,    9,    9,    9,    9,    9,
+        9,    9,    9,    9,    9,    9,    9,    9,    9,    9,
+        1,    1,    1,    1,    1,    1,    9,    9,   10,   11,
 
-       10,    1,    1,    1,   11,    1,    1,   12,    1,   13,
-        1,    1,    1,    1,    1,    1,   14,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+       12,    9,    9,    9,   13,    9,    9,   14,    9,   15,
+        9,    9,    9,    9,    9,    9,   16,    9,    9,    9,
+        9,    9,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
@@ -421,46 +421,46 @@ static const YY_CHAR yy_ec[256] =
         1,    1,    1,    1,    1
     } ;
 
-static const YY_CHAR yy_meta[15] =
+static const YY_CHAR yy_meta[17] =
     {   0,
-        1,    2,    3,    2,    4,    5,    6,    1,    1,    1,
-        1,    1,    1,    1
+        1,    2,    3,    1,    2,    1,    4,    3,    5,    5,
+        5,    5,    5,    5,    5,    5
     } ;
 
-static const flex_int16_t yy_base[30] =
+static const flex_int16_t yy_base[31] =
     {   0,
-        0,    1,    5,   11,   47,    0,   48,   48,    0,    0,
-       48,    0,    8,   32,    0,   36,   28,   25,   26,   24,
-       15,   14,   48,   48,   19,   25,   31,   37,   41
+        0,   46,   15,   22,   48,   54,   17,   54,    0,   20,
+        0,   54,   24,    0,   27,   32,    0,   29,   24,   21,
+       25,   23,   32,   30,   54,   54,   40,   26,   45,   49
     } ;
 
-static const flex_int16_t yy_def[30] =
+static const flex_int16_t yy_def[31] =
     {   0,
-       25,   25,   26,   26,   24,   27,   24,   24,   24,   28,
-       24,   27,   24,   24,   28,   24,   24,   24,   24,   24,
-       29,   29,   24,    0,   24,   24,   24,   24,   24
+       26,    1,   27,   27,   26,   26,   26,   26,   28,   26,
+       29,   26,   26,   28,   26,   26,   29,   26,   26,   26,
+       26,   26,   30,   30,   26,    0,   26,   26,   26,   26
     } ;
 
-static const flex_int16_t yy_nxt[63] =
+static const flex_int16_t yy_nxt[71] =
     {   0,
-       24,   13,    7,    7,    8,    9,   11,   11,   11,   13,
-       14,   11,   11,   11,   11,   22,   22,   11,   14,    6,
-        6,    6,    6,    6,    6,   10,   10,   10,   10,   10,
-       10,   12,   12,   21,   20,   12,   12,   15,   19,   18,
-       15,   15,   23,   17,   16,   23,   24,    5,   24,   24,
-       24,   24,   24,   24,   24,   24,   24,   24,   24,   24,
-       24,   24
+        6,    7,    8,    7,    6,    6,    6,    6,    9,    9,
+        9,    9,    9,    9,    9,    9,   12,   12,   13,   12,
+       13,   15,   12,   12,   12,   13,   12,   13,   15,   12,
+       14,   24,   16,   24,   23,   22,   21,   20,   19,   16,
+       11,   11,   11,   11,   11,   17,   18,   26,   17,   17,
+       25,   10,   25,    5,   26,   26,   26,   26,   26,   26,
+       26,   26,   26,   26,   26,   26,   26,   26,   26,   26
     } ;
 
-static const flex_int16_t yy_chk[63] =
+static const flex_int16_t yy_chk[71] =
     {   0,
-        0,    9,    1,    2,    1,    2,    3,    3,    3,   13,
-        9,    3,    4,    4,    4,   22,   21,    4,   13,   25,
-       25,   25,   25,   25,   25,   26,   26,   26,   26,   26,
-       26,   27,   27,   20,   19,   27,   27,   28,   18,   17,
-       28,   28,   29,   16,   14,   29,    5,   24,   24,   24,
-       24,   24,   24,   24,   24,   24,   24,   24,   24,   24,
-       24,   24
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    3,    3,    7,    3,
+        7,   10,    3,    4,    4,   13,    4,   13,   15,    4,
+       28,   24,   10,   23,   22,   21,   20,   19,   18,   15,
+       27,   27,   27,   27,   27,   29,   16,    5,   29,   29,
+       30,    2,   30,   26,   26,   26,   26,   26,   26,   26,
+       26,   26,   26,   26,   26,   26,   26,   26,   26,   26
     } ;
 
 /* Table of booleans, true if rule could match eol. */
@@ -482,14 +482,35 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "ejercicio1.l"
-/* ejercicio1.l */
+#line 1 "ejercicio3.l"
+/* ejercicio3.l - Tabla de símbolos dinámica con encadenamiento (Chaining) */
 
-#line 6 "ejercicio1.l"
+#line 6 "ejercicio3.l"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
+
+/* Estructura para las referencias (línea y archivo) */
+struct ref {
+    struct ref *next;
+    char *filename;
+    int lineno;
+};
+
+/* Estructura para el símbolo (palabra y lista de referencias) */
+struct symbol {
+    char *name;
+    struct ref *reflist;
+    struct symbol *next;
+};
+
+#define NHASH 9997
+struct symbol *symtab[NHASH];
+
+struct symbol* lookup(char*);
+void addref(int, const char*, const char*);
+void printrefs(void);
 
 struct bufstack {
     struct bufstack *prev;
@@ -499,31 +520,11 @@ struct bufstack {
     FILE *f;
 } *curbs = 0;
 
-char *curfilename;
-FILE *tempfile;
-
+char *curfilename = NULL;
 int newfile(char *fn);
 int popfile(void);
-
-void process_chunk(const char *s, int lineno, const char *filename) {
-    const char *p = s;
-    char word[512];
-    int i = 0;
-    while (*p) {
-        if (isalpha((unsigned char)*p)) {
-            i = 0;
-            while (*p && isalpha((unsigned char)*p) && i < (int)sizeof(word)-1) {
-                word[i++] = *p++;
-            }
-            word[i] = '\0';
-            fprintf(tempfile, "%s %d %s\n", word, lineno, filename);
-        } else {
-            p++;
-        }
-    }
-}
-#line 526 "lex.yy.c"
 #line 527 "lex.yy.c"
+#line 528 "lex.yy.c"
 
 #define INITIAL 0
 #define IFILE 1
@@ -744,10 +745,10 @@ YY_DECL
 		}
 
 	{
-#line 44 "ejercicio1.l"
+#line 45 "ejercicio3.l"
 
 
-#line 751 "lex.yy.c"
+#line 752 "lex.yy.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -775,13 +776,13 @@ yy_match:
 			while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 				{
 				yy_current_state = (int) yy_def[yy_current_state];
-				if ( yy_current_state >= 25 )
+				if ( yy_current_state >= 27 )
 					yy_c = yy_meta[yy_c];
 				}
 			yy_current_state = yy_nxt[yy_base[yy_current_state] + yy_c];
 			++yy_cp;
 			}
-		while ( yy_base[yy_current_state] != 48 );
+		while ( yy_base[yy_current_state] != 54 );
 
 yy_find_action:
 		yy_act = yy_accept[yy_current_state];
@@ -817,12 +818,12 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 46 "ejercicio1.l"
+#line 47 "ejercicio3.l"
 { BEGIN IFILE; }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 48 "ejercicio1.l"
+#line 49 "ejercicio3.l"
 {
     {
         int c;
@@ -837,7 +838,7 @@ YY_RULE_SETUP
 case 3:
 /* rule 3 can match eol */
 YY_RULE_SETUP
-#line 59 "ejercicio1.l"
+#line 60 "ejercicio3.l"
 {
     fprintf(stderr, "%d bad include line\n", yylineno);
     yyterminate();
@@ -845,38 +846,38 @@ YY_RULE_SETUP
 	YY_BREAK
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(IFILE):
-#line 64 "ejercicio1.l"
+#line 65 "ejercicio3.l"
 { if (!popfile()) yyterminate(); }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 66 "ejercicio1.l"
+#line 67 "ejercicio3.l"
 {
-    process_chunk(yytext, yylineno, curfilename);
+    addref(yylineno, curfilename ? curfilename : "(unknown)", yytext);
 }
 	YY_BREAK
 case 5:
 /* rule 5 can match eol */
 YY_RULE_SETUP
-#line 70 "ejercicio1.l"
+#line 71 "ejercicio3.l"
 { yylineno++; }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 72 "ejercicio1.l"
-{ /* ignore standalone # */ }
+#line 73 "ejercicio3.l"
+{ /* ignore whitespace */ }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 74 "ejercicio1.l"
-{ /* ignore others */ }
+#line 75 "ejercicio3.l"
+{ /* ignore other chars */ }
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 76 "ejercicio1.l"
+#line 77 "ejercicio3.l"
 ECHO;
 	YY_BREAK
-#line 880 "lex.yy.c"
+#line 881 "lex.yy.c"
 
 	case YY_END_OF_BUFFER:
 		{
@@ -1172,7 +1173,7 @@ static int yy_get_next_buffer (void)
 		while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 			{
 			yy_current_state = (int) yy_def[yy_current_state];
-			if ( yy_current_state >= 25 )
+			if ( yy_current_state >= 27 )
 				yy_c = yy_meta[yy_c];
 			}
 		yy_current_state = yy_nxt[yy_base[yy_current_state] + yy_c];
@@ -1200,11 +1201,11 @@ static int yy_get_next_buffer (void)
 	while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 		{
 		yy_current_state = (int) yy_def[yy_current_state];
-		if ( yy_current_state >= 25 )
+		if ( yy_current_state >= 27 )
 			yy_c = yy_meta[yy_c];
 		}
 	yy_current_state = yy_nxt[yy_base[yy_current_state] + yy_c];
-	yy_is_jam = (yy_current_state == 24);
+	yy_is_jam = (yy_current_state == 26);
 
 		return yy_is_jam ? 0 : yy_current_state;
 }
@@ -1893,8 +1894,59 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 76 "ejercicio1.l"
+#line 77 "ejercicio3.l"
 
+
+static unsigned symhash(const char *sym) {
+    unsigned int hash = 0;
+    unsigned char c;
+    while ((c = (unsigned char)*sym++)) hash = hash * 9 ^ c;
+    return hash;
+}
+
+struct symbol * lookup(char* s) {
+    unsigned idx = symhash(s) % NHASH;
+    struct symbol *sp = symtab[idx];
+    while (sp) {
+        if (sp->name && strcmp(sp->name, s) == 0) return sp;
+        sp = sp->next;
+    }
+    sp = malloc(sizeof(struct symbol));
+    if (!sp) { perror("malloc"); exit(1); }
+    sp->name = strdup(s);
+    sp->reflist = NULL;
+    sp->next = symtab[idx];
+    symtab[idx] = sp;
+    return sp;
+}
+
+void addref(int lineno, const char *filename, const char *word) {
+    struct symbol *sp = lookup((char*)word);
+    struct ref *r = malloc(sizeof(struct ref));
+    if (!r) { perror("malloc"); exit(1); }
+    r->lineno = lineno;
+    r->filename = strdup(filename);
+    r->next = sp->reflist;
+    sp->reflist = r;
+}
+
+void printrefs(void) {
+    struct symbol *sp;
+    printf("\nConcordance Report (Dynamic Table):\n");
+    for (int i = 0; i < NHASH; i++) {
+        sp = symtab[i];
+        while (sp) {
+            printf("%-20s", sp->name);
+            struct ref *r = sp->reflist;
+            while (r) {
+                printf(" %s:%d", r->filename, r->lineno);
+                r = r->next;
+            }
+            printf("\n");
+            sp = sp->next;
+        }
+    }
+}
 
 int newfile(char *fn) {
     FILE *f = fopen(fn, "r");
@@ -1935,19 +1987,8 @@ int main(int argc, char **argv) {
         fprintf(stderr, "Usage: %s <input-file>\n", argv[0]);
         return 1;
     }
-    tempfile = fopen("temp_refs.txt", "w");
-    if (!tempfile) { perror("tempfile"); return 1; }
+    for (int i = 0; i < NHASH; i++) symtab[i] = NULL;
     if (newfile(argv[1])) yylex();
-    fclose(tempfile);
-    system("sort temp_refs.txt > sorted_refs.txt");
-    FILE *sorted = fopen("sorted_refs.txt", "r");
-    if (!sorted) return 1;
-    char word[512], filename[512];
-    int line;
-    printf("\nConcordance Report:\n");
-    while (fscanf(sorted, "%s %d %s", word, &line, filename) == 3) {
-        printf("%-20s %5d %s\n", word, line, filename);
-    }
-    fclose(sorted);
+    printrefs();
     return 0;
 }
