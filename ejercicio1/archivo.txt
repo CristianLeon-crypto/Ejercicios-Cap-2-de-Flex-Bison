@@ -1,0 +1,4 @@
+Este es un archivo de prueba para el ejercicio.
+Las palabras se contaran y se guardaran en el reporte.
+#include "secreto.txt"
+Fin del archivo principal.
