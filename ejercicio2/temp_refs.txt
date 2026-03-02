@@ -1,0 +1,8 @@
+hola 1 archivo.txt
+mundo 1 archivo.txt
+hola 3 archivo.txt
+de 3 archivo.txt
+nuevo 3 archivo.txt
+hola 5 archivo.txt
+otra 5 archivo.txt
+vez 5 archivo.txt
